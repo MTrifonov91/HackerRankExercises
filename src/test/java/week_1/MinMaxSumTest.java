@@ -26,7 +26,7 @@ class MinMaxSumTest {
         return Stream.of(
                 Arguments.of(
                         new ArrayList<>(List.of(1, 2, 3, 4, 5)),
-                        new ArrayList<>(List.of(10, 14))
+                        new ArrayList<>(List.of(10L, 14L))
                 )
         );
     }
