@@ -1,10 +1,7 @@
 package week_1;
 
-import com.sun.source.tree.NewArrayTree;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class PlusMinus {
 
