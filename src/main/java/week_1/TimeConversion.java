@@ -15,8 +15,7 @@ public class TimeConversion {
                 convertedString = convertedString.replace("24", "12");
             }
 
-        }
-        else {
+        } else {
             convertedString = s.substring(0, 8);
             if (convertedString.substring(0, 2).equals("12")) {
                 convertedString = convertedString.replace("12", "00");
