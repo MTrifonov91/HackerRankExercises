@@ -8,8 +8,6 @@ import java.util.Map;
 public class LonelyInteger {
 
     public static int lonelyInteger(List<Integer> input) {
-        int lonelyOne = 0;
-
         Map<Integer, Integer> counts = new HashMap<>();
         input.forEach(i -> counts.merge(i, 1, Integer::sum));
 
